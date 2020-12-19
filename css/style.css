@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     font-family: 'Myriad Pro', sans-serif;
@@ -22,9 +24,8 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
-    margin-bottom:-60px;
+    margin-bottom:-80px;
 }
-
 
 
 /* Intro */
@@ -57,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro__p{
  	color: #ffffff;
   font-size: 16px;
+  margin-bottom:70px;
 }
 
 .intro__title-solution{
@@ -65,15 +67,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /*form*/
 .form-group{
-  align-items:center;
+    margin:0 auto;
+    max-width: 940px;
+    height: 110px;
+    background-image: url('../img/background-black.png');
 }
 
 .form-group__text{
-		height:53px;
+	height:53px;
     width:213px;
     margin:0 10px;
-    margin-top:100px;
-	  vertical-align:top;
+    margin-top:30px;
+	vertical-align:top;
     background: #000000; 
     color: #808080; 
     font-size: 16px;
@@ -89,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     height:53px;
     width:213px;
     margin:0 10px;
-    margin-top:100px;
+    margin-top:30px;
     vertical-align:top;
     background: #000000; 
     color: #808080; 
@@ -105,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
     height:53px;
     width:213px;
     margin:0 10px;
-    margin-top:100px;
+    margin-top:30px;
     vertical-align:top;
     background: #000000; 
     color: #808080; 
@@ -121,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
     height:53px;
     width:185px;
     margin:0 10px;
-    margin-top:100px;
+    margin-top:30px;
     vertical-align:top;
     border-radius: 4px;
     font-weight: 520;
@@ -217,4 +222,115 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav__link3:hover{
 	background: url('../img/googlehover.png');
+}
+
+
+/*clients*/
+.clients {
+    padding-top: 100px;
+}
+.message {
+    display:flex;
+    align-items: center;
+
+}
+.message__ava {
+    width: 532px;
+    height: 424px;
+    background-image: url('../img/sitte.png');
+    margin-left:50px;
+}
+.message__text {
+    max-width: 768px;
+    height: 172px;
+    padding-left: 60px;
+    margin-bottom:290px;
+}
+
+.message__title {
+    font-family: 'Myriad Pro';
+    color: #323232;
+    font-weight: 400;
+    line-height: 2;
+    font-size:35px;
+}
+
+.line{
+    border-bottom: 1px solid #0199e6;
+    width:70px; 
+}
+
+.message__p {
+    font-family: 'Myriad Pro';
+    color: #777777;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.message__costum{
+    font-family: 'Myriad Pro';
+    color: #323232;
+
+}
+
+
+.message__design{
+    font-family: 'Myriad Pro';
+    color: #777777;
+    font-size: 16px;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top:15px;
+}
+
+.message1{
+    margin-top:-40px;
+    margin-left:60px;
+}
+
+.message2{
+    margin-top:-40px;
+    margin-left:60px;
+}
+
+.iconka{
+    background-image: url('../img/iconshesterenka.png');
+    background-repeat: no-repeat;
+    height:32px;
+    width:32px;
+    margin-top:50px;
+}
+
+.iconka22{
+    background-image: url('../img/iconmolnya.png');
+    background-repeat: no-repeat;
+    height:32px;
+    width:32px;
+    margin-top:50px;
+}
+
+.block--light-gray{
+    background: #f9f9f9;
+    margin-top:80px;
+}
+
+.message__ava-right {
+    width: 532px;
+    height: 424px;
+    background-image: url('../img/sitte.png');
+    margin-top:60px;
+    margin-left:100px;
+}
+.message__text2 {
+    max-width: 768px;
+    height: 172px;
+    padding-left: 60px;
+    padding-right: 30px;
+    margin-bottom:290px;
+    margin-top:60px;
+}
+
+.message {
+    display:flex;
+    align-items: center;
 }
