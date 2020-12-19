@@ -334,3 +334,19 @@ h1, h2, h3, h4, h5, h6 {
     display:flex;
     align-items: center;
 }
+
+.iconka1{
+    background-image: url('../img/iconnemolnya.png');
+    background-repeat: no-repeat;
+    height:32px;
+    width:32px;
+    margin-top:50px;
+}
+
+.iconka222{
+    background-image: url('../img/iconcamera.png');
+    background-repeat: no-repeat;
+    height:32px;
+    width:32px;
+    margin-top:50px;
+}
