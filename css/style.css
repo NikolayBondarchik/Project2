@@ -978,11 +978,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .block__footer2{
-    margin-left:500px;
+    margin-left:-10px;
 }
 .block__footer{
    width: 100%;
-   padding-top:80px;
+   padding-top:60px;
     max-width: 1170px;
     margin: 0 auto;
     text-align: center; 
