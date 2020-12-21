@@ -871,3 +871,119 @@ h1, h2, h3, h4, h5, h6 {
     margin-top:80px;
     height:600px;
 }
+
+/*peredfooter*/
+.in {
+    background-image: url('../img/background-footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    margin-top:10px;
+}
+
+.in__i {
+    width: 100%;
+    max-width: 1170px;
+    text-align: center;
+}
+
+.in__title{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2;
+    margin-left:50px;
+    padding-top:150px;
+
+}
+
+.in__desc {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom:-2px;
+    margin-left:40px;
+    padding-top:20px;
+}
+
+.in__text4 {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top:-10px;
+}
+
+.in__btn{
+  font-weight: 700;
+  height:53px;
+  width:185px;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 4px;
+  background-color: #0199e6;
+  transition: 0.2s;
+  display: block;
+  max-width: 155px;
+  margin-top: 40px;
+  margin-right:600px;
+  margin-left:520px;
+
+}
+
+
+
+.in__btn:hover {
+ background-color: #ffffff;
+ color: black; 
+}
+.in__btn:active {
+  background-color: #acadac;
+  box-shadow: 0 3px #acadac inset;  
+}
+
+.kaktus{
+    background-image: url('../img/contactus.png');
+    background-repeat: no-repeat;
+    height:15px;
+    width:188px;
+    margin-left:180px;
+    margin-top:30px;
+
+}
+
+/*footer*/
+
+.block__footer1{
+    margin-top:20px;
+}
+
+.block__footer-desc{
+    font-family: 'Myriad Pro';
+    color: #777777;
+    font-size: 16px;
+    font-size: 18px;
+    margin-top:15px;
+    
+
+}
+
+
+.block--light-gray1{
+    background: #f9f9f9;
+    height:284px;
+    margin-top:-200px;
+}
+
+.block__footer2{
+    margin-left:500px;
+}
+.block__footer{
+   width: 100%;
+   padding-top:80px;
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center; 
+}
